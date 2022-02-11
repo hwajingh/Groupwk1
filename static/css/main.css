@@ -1,0 +1,47 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    max-width: none;
+    min-height: 25vw;
+}
+
+#footer.row {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: max-content;
+}
+#footer-ul> ul {
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+#footer-ul> ul> li{
+    display: inline;
+    font-size: 80%;
+    list-style-type: none;
+    padding-left: 15px;
+    width: auto;
+}
+#chat-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+}
+
+#get-started-btn {
+    background-color: rgb(147, 226, 0);
+    margin-right: 30px;
+    
+}
+#chat-btn {
+    background-color: white;
+    color: blue;
+    margin-left: 30px;
+}
+#btn-col {
+    margin-bottom: 10px;
+}
