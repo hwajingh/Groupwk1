@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:0;
+    font-family: sans-serif;
+
+}
+
+.sign-up-form{
+    width: 500px;
+    box-shadow:none;
+    background: white;
+    padding: 15px;
+    margin: px auto 0;
+    text-align: center;
+    padding-right: 1000px;
+}
+
+.sign-up-form h1{
+    color: black;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px 0;
+    width: 90%;
+    border: 1px solid rgb(121, 122, 126);
+    outline: none;
+
+    background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
+    background-position: 25px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+}
+
+
+button{
+    color:rgb(255, 255, 255);
+    width: 50%;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.sign-btn{
+    background-color: blue;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.icons{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+      
+}
