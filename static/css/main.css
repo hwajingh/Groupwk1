@@ -81,11 +81,11 @@ body{
     border: 1px solid rgb(121, 122, 126);
     outline: none;
 
-    background-image: url(https://cdn2.iconfinder.com/data/icons/people-80/96/Picture1-1024.png);
+    /* background-image: url(https://cdn2.iconfinder.com/data/icons/people-80/96/Picture1-1024.png);
     background-position: 25px center;
     background-repeat: no-repeat;
     border: 1px solid #ccc;
-   
+    */
 }
 .input-box{
     border-radius: 20px;
@@ -95,10 +95,10 @@ body{
     border: 1px solid rgb(121, 122, 126);
     outline: none;
 
-    background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
+    /* background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
     background-position: 25px center;
     background-repeat: no-repeat;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; */
 }
 
 .input-password{
@@ -109,10 +109,11 @@ body{
     border: 1px solid rgb(121, 122, 126);
     outline: none;
 
-    background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
+
+    /* background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
     background-position: 25px center;
     background-repeat: no-repeat;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; */
 }
 
 
@@ -141,5 +142,19 @@ button{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-      
+    
+}
+
+.input_holder {
+    position: relative;
+}
+
+.input_holder img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 44px;
+    padding-left: 15px;
+    height: 24px;
+    width: 24px;
 }
