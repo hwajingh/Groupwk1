@@ -73,6 +73,20 @@ body{
     font-size: 50px;
 }
 
+.input-username{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px 0;
+    width: 90%;
+    border: 1px solid rgb(121, 122, 126);
+    outline: none;
+
+    background-image: url(https://cdn2.iconfinder.com/data/icons/people-80/96/Picture1-1024.png);
+    background-position: 25px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+   
+}
 .input-box{
     border-radius: 20px;
     padding: 20px;
@@ -86,6 +100,21 @@ body{
     background-repeat: no-repeat;
     border: 1px solid #ccc;
 }
+
+.input-password{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px 0;
+    width: 90%;
+    border: 1px solid rgb(121, 122, 126);
+    outline: none;
+
+    background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
+    background-position: 25px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+}
+
 
 
 button{
