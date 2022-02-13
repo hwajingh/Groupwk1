@@ -8,15 +8,63 @@ body{
     font-family: sans-serif;
 
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.left, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left{
+    margin-right: 0;
+
+}
+
+.right{
+    background-image: url("../img/Sign\ Up\ -\ CRM\ SIgnup.jpg");
+    position: relative;
+    z-index: -10;
+    top: -90px;
+    left: -100px;
+    
+}
+
+@media screen and (min-width: 900px) {
+    .wrapper {
+       flex-direction: row;
+       height: 100vh;
+      }
+
+    
+    .left{
+        display:flex;
+        width: 30%;
+        height: auto;
+    }
+    .right{
+        display:flex;
+        width: 70%;
+        height: auto;
+    }
+
+}
+
+
 
 .sign-up-form{
-    width: 500px;
+    grid-column: 1;
     box-shadow:none;
     background: white;
     padding: 15px;
     margin: px auto 0;
     text-align: center;
-    padding-right: 1000px;
+    position: left;
+    margin:0;
 }
 
 .sign-up-form h1{
