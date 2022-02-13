@@ -1,7 +1,10 @@
 .container{
     font-family:"Roboto";
-    border-bottom: 1px solid black;
-
+}
+.row hr{
+    width: 70%;
+    margin-top: 5%;
+    color: black;
 }
 .card{
     min-height: 100%;
