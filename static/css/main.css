@@ -1,0 +1,105 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
+.nav-list{
+  background:white;
+  margin: 0px;
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item:first-child{
+  margin-right: auto;
+}
+
+#wording{
+  margin-right: 8rem;
+
+}
+
+
+#signinbutton{
+  background: white;
+  color:blue;
+  border-radius: 10px;
+}
+
+#tryitbutton{
+  border-radius: 10px;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.7fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header-Row Header-Row Header-Row"
+      ". . ."
+      ". . .";
+  }
+  
+  .Header-Row { grid-area: Header-Row; }
+  
+=======
+#footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    max-width: none;
+    min-height: 25vw;
+}
+
+#footer.row {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: max-content;
+}
+#footer-ul> ul {
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+#footer-ul> ul> li{
+    display: inline;
+    font-size: 80%;
+    list-style-type: none;
+    padding-left: 15px;
+    width: auto;
+}
+#chat-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+}
+
+#get-started-btn {
+    background-color: rgb(147, 226, 0);
+    margin-right: 30px;
+    
+}
+#chat-btn {
+    background-color: white;
+    color: blue;
+    margin-left: 30px;
+}
+#btn-col {
+    margin-bottom: 10px;
+}
